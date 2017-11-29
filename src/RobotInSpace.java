@@ -30,7 +30,8 @@
 	    
 	    // 4. If right is pressed, move the Robot right.
 	    
-	    // 5. Then move the Robot to RD-2D for a surprise! 
+	    // 5. Then move the Robot to R2D2 for a surprise!
+		// 
 	}
 
 	private void checkIfR2D2Found() throws Exception {
