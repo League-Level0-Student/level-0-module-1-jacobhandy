@@ -19,8 +19,19 @@
 	Robot rob = new Robot("mini");
 
 	/*  Make the Robot move around the screen when the arrow keys are pressed... */
+
 	private void moveRobot(int keyPressed) {
-	    // 0. Print out the keyPressed variable and write down the numbers for each arrow key
+		System.out.println(keyPressed);
+		rob.setSpeed(100);
+	if (keyPressed == 38) {
+		rob.move(keyPressed+1);
+	}
+	
+	System.out.println(keyPressed);
+	if (keyPressed == 40) {
+		rob.move(keyPressed-1);
+	}
+		// 0. Print out the keyPressed variable and write down the numbers for each arrow key
 
 	    // 1. If the up arrow is pressed, move the Robot up the screen.
 
